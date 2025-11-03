@@ -1,1 +1,23 @@
-# pcb-checklist
+# PCB checklist
+
+- Schematic
+    - ERC
+    - Components annotate
+    - Position and labels of all controls match the schematic
+    - Position and labels of all IO match the schematic
+    - Indication match the IO and controls
+    - All inputs more than 10k impedance
+    - All outputs has 100 Ohm protection
+    - Check BOM
+        - remove pogopin, diodes, opamps
+    - Backlight
+- PCB
+    - DRC
+    - Check silkscreen
+    - Check board outline
+    - Name of the module, logo
+    - link to site
+    - version of the module
+    - ±12, +5, GND marks
+    - Sensitive circuits (high impedance, high frequency, opamp/power amp feedback)
+    - Inverted soldermask under the silkscreen on indication windows
